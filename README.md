@@ -28,6 +28,11 @@ Raihan Alifianto | 05111940000213
 ### 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
 
 ### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
+Mengisi capture filter dengan `src port 80` seperti berikut.
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no11-1.png">
+
+Kemudian hasilnya 
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no11-2.png">
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
