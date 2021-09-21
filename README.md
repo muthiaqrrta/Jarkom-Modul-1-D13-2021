@@ -58,8 +58,10 @@ Kemudian buka website kemenag.go.id sehingga wireshark menampilkan tampilan beri
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
 Mengisi capture filter dengan `src host 192.168.134.29` yang merupakan alamat ip laptop yang digunakan seperti berikut.
+
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no15-1.png">
 
 Kemudian hasilnya 
+
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no15-2.png">
 
