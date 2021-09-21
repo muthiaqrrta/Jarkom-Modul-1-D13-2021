@@ -35,6 +35,12 @@ Kemudian hasilnya
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no11-2.png">
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+Mengisi capture filter dengan `port 21` seperti berikut.
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no12-1.png">
+
+Kemudian hasilnya 
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no12-2.png">
+Tidak terdapat port yang ditampilkan dikarenakan port 21 merupakan private server.
 
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 
