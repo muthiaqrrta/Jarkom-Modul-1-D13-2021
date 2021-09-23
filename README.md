@@ -22,7 +22,7 @@ Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi filter pada fil
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no6.png">
 
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
-Mengisi display filter : frame contains “Real.pdf” sebagai berikut,
+Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi display filter : frame contains “Real.pdf” sebagai berikut:
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-1.png">
 
 Kemudian mengisi Follow TCP Stream, dan mengubah tampilan ASCII ke RAW dan Save-As Real.zip,
