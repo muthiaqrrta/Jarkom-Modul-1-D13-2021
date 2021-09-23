@@ -28,10 +28,8 @@ Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi display filter 
 Kemudian mengisi Follow TCP Stream, dan mengubah tampilan ASCII ke RAW dan Save-As Real.zip,
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-2.png">
 
-Kemudian ekstrak file Real.zip yang sudah tersimpan untuk mendapatkan file pdf
+Kemudian ekstrak file Real.zip yang sudah tersimpan untuk mendapatkan file pdf dan berikut hasil screeshotnya juga screenshot dari isi file pdf sebagai berikut,
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-3.png">
-
-Adapun isi file pdf yaitu,
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-4.png">
 
 ### 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
