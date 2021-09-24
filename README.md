@@ -18,37 +18,37 @@ Raihan Alifianto | 05111940000213
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 
 ### 6. Cari username dan password ketika melakukan login ke FTP Server!
-Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi filter pada file 6-7.pcap dengan : ftp.request.command == PASS || ftp.request.command == USER, sebagai berikut:
+Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi filter pada file 6-7.pcap dengan `ftp.request.command == PASS || ftp.request.command == USER` sebagai berikut.
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no6.png">
 
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
-Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi display filter : frame contains “Real.pdf” sebagai berikut:
+Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi display filter `frame contains “Real.pdf”` sebagai berikut.
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-1.png">
 
-Kemudian mengisi Follow TCP Stream, dan mengubah tampilan ASCII ke RAW dan Save-As Real.zip,
+Kemudian mengisi Follow TCP Stream dan mengubah tampilan ASCII ke RAW dan Save-As Real.zip
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-2.png">
 
-Kemudian ekstrak file Real.zip yang sudah tersimpan untuk mendapatkan file pdf dan berikut hasil screeshotnya juga screenshot dari isi file pdf sebagai berikut,
+Kemudian ekstrak file Real.zip yang sudah tersimpan untuk mendapatkan file pdf dan berikut hasil screeshotnya juga screenshot dari isi file pdf sebagai berikut.
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-3.png">
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no7-4.png">
 
 ### 8. Cari paket yang menunjukan pengambilan file dari FTP tersebut!
-Pertama membuka file 8-10.pcap dengan wireshark dan tulis di display filter: ftp.request.command == RETR, adapun hasilnya sebagai berikut:
+Pertama membuka file 8-10.pcap dengan wireshark dan tulis di display filter `ftp.request.command == RETR`. Adapun hasilnya sebagai berikut.
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no8-3.png">
 
 ### 9. Dari paket-paket yang menuju FTP terdapat inidkasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
-Pertama mengisi display filter : ftp-data contains “secret.zip”, kemudian → Follow TCP Stream ubah ASCII, dan stream menjadi 10 kemudian Save-As secret.zip. Adapun hasil screenshotnya sebagai berikut,
+Pertama mengisi display filter `ftp-data contains “secret.zip”`. Kemudian → Follow TCP Stream ubah ASCII, dan stream menjadi 10 kemudian Save-As secret.zip. Adapun hasil screenshotnya sebagai berikut.
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no9-1.png">
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no9-2.png">
 
 ### 10. Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
-Pertama buka file 8-10.pcap dengan wireshark dan isi display filter dengan: ftp-data contains “history.txt”
+Pertama buka file 8-10.pcap dengan wireshark dan isi display filter dengan `ftp-data contains “history.txt”`
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no10-1.png">
 
 lalu follow hasil filter berikut dengan tcp-stream dan ubah ascii menjadi raw, streamnya dinaikan menjadi 11 kemudian save dengan nama history.txt, lalu setelah di save kami mendapatkan file dengan isi seperti dibawah ini
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no10-2.png">
 
-yang dapat kita gunakan untuk membuka wanted,pdf yang terdapat di dalam secret.zip, berikut setelah pdfnya terbuka.
+yang dapat kita gunakan untuk membuka wanted.pdf yang terdapat di dalam secret.zip. Berikut setelah pdfnya terbuka.
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no10-3.png">
 
 ### 11. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
