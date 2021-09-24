@@ -9,6 +9,7 @@ Raihan Alifianto | 05111940000213
 
 ## Soal dan Jawaban
 ### 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
+Pertama kita buka terlebih dahulu file 1-5.pcap, lalu kita tulis di dalam display filternya dengan : http.host == "ichimarumaru.tech" alu klik kanan pada salah satu hasil filter yang menggunakan http, follow dan klik http stream, dan akan ditunjukan bahwa web servernya adalah nginx.
 
 ### 2. Temukan paket dari web-web yang menggunakan basic authentication method!
 
