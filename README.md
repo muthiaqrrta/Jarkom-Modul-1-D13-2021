@@ -77,9 +77,11 @@ Tidak terdapat port yang ditampilkan dikarenakan port 21 merupakan private serve
 
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
 Mengisi capture filter dengan `dst port 443` seperti berikut.
+
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no13-1.png">
 
 Kemudian hasilnya 
+
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no13-2.png">
 
 ### 14. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke kemenag.go.id!
