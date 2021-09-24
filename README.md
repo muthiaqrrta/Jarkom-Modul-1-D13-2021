@@ -100,3 +100,7 @@ Kemudian hasilnya
 
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no15-2.png">
 
+
+###Kendala saat Pengerjaan:
+1. Ada soal yang sedikit tricky, dan beberapa perlu banyak membaca materi lebih 
+2. Banyak beda, dan beberapa step ada yang harus dicari sendiri untuk mengerjakannya dari modul
