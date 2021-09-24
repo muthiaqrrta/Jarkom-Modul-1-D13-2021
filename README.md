@@ -7,6 +7,7 @@ Muthia Qurrota Akyun | 05111940000019
 Fayha Syifa Qalbi | 05111940000185
 Raihan Alifianto | 05111940000213
 
+## Soal dan Jawaban
 ### 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
 
 ### 2. Temukan paket dari web-web yang menggunakan basic authentication method!
@@ -101,6 +102,6 @@ Kemudian hasilnya
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no15-2.png">
 
 
-###Kendala saat Pengerjaan:
+## Kendala saat Pengerjaan:
 1. Ada soal yang sedikit tricky, dan beberapa perlu banyak membaca materi lebih 
 2. Banyak beda, dan beberapa step ada yang harus dicari sendiri untuk mengerjakannya dari modul
