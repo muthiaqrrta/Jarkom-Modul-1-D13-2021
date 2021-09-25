@@ -9,15 +9,22 @@ Raihan Alifianto | 05111940000213
 
 ## Soal dan Jawaban
 ### 1. Sebutkan webserver yang digunakan pada "ichimarumaru.tech"! 
-Pertama kita buka terlebih dahulu file 1-5.pcap, lalu kita tulis di dalam display filternya dengan : http.host == "ichimarumaru.tech" alu klik kanan pada salah satu hasil filter yang menggunakan http, follow dan klik http stream, dan akan ditunjukan bahwa web servernya adalah nginx.
+Pertama kita buka terlebih dahulu file 1-5.pcap, lalu kita tulis di dalam display filternya dengan `http.host == "ichimarumaru.tech"` kemudian klik kanan pada salah satu hasil filter yang menggunakan http, follow dan klik http stream, dan akan ditunjukan bahwa web servernya adalah nginx.
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no1.png">
 
 ### 2. Temukan paket dari web-web yang menggunakan basic authentication method!
+Method yang digunakan adalah `GET` dengan mengisi display filter menggunakan `http.authbasic` seperti berikut.
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no2.png">
 
 ### 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
 
 ### 4. Temukan paket mysql yang mengandung perintah query select!
 
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+Mengisi display filter dengan `mysql.query` lalu dari hasil filter tersebut temukan yang mengandung query insert kemudian lihat username dan passwordnya.
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no5-1.png">
+Jawab pertanyaan yang ada pada web tersebut seperti berikut.
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no5-2.png">
 
 ### 6. Cari username dan password ketika melakukan login ke FTP Server!
 Pertama membuka file 6-7.pcap dengan wireshark kemudian, mengisi filter pada file 6-7.pcap dengan `ftp.request.command == PASS || ftp.request.command == USER` sebagai berikut.
