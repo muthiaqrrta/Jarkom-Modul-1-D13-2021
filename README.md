@@ -19,6 +19,12 @@ Method yang digunakan adalah `GET` dengan mengisi display filter menggunakan `ht
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no2.png">
 
 ### 3. Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+Mengisi display filter dengan http.host contains "basic.ichimarumaru.tech"
+
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no3-1.png">
+Dari sini kami berhasil mendapat username dan password. Kemudian masukkan username: kuncimenujulautan dan password: tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN. Setelah itu menjawab soal yang ada sebagai berikut, 
+
+<img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no3-2.png">
 
 ### 4. Temukan paket mysql yang mengandung perintah query select!
 
