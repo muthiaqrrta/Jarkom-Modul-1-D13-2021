@@ -27,6 +27,9 @@ Dari sini kami berhasil mendapat username dan password. Kemudian masukkan userna
 <img src="https://github.com/muthiaqrrta/Jarkom-Modul-1-D13-2021/blob/main/Screenshot/no3-2.png">
 
 ### 4. Temukan paket mysql yang mengandung perintah query select!
+masih dengan file yang sama, namun pada saat ini display filternya kita isi dengan `mysql.query contains "select" || mysql.query contains "SELECT"` lalu akan muncul dibawahnya sebanyak 3 jenis query select yang di filter
+
+
 
 ### 5. Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 Mengisi display filter dengan `mysql.query` lalu dari hasil filter tersebut temukan yang mengandung query insert kemudian lihat username dan passwordnya.
